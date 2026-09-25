@@ -1,0 +1,27 @@
+DEPLOYMENT — RE-LIFE HOSPITAL
+
+GitHub Pages
+------------
+1. Upload the entire folder contents to a repository.
+2. In GitHub: Settings -> Pages.
+3. Deploy from the main branch / root.
+4. The site entry file is index.html.
+
+Vercel
+------
+1. Import the repository.
+2. Framework preset: Other.
+3. Build command: leave blank.
+4. Output directory: leave blank.
+5. Deploy.
+
+Netlify
+-------
+1. Drag the project folder into Netlify, or connect the repository.
+2. No build command is required.
+3. Publish directory: project root.
+
+IMPORTANT
+---------
+Keep the assets folder next to index.html.
+Do not move images/reviews unless the paths in index.html are also changed.
